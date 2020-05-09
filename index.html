@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://www.papaparse.com/resources/js/papaparse.js"></script>
     <script src="js/script.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <form id="form_p">
-        
-        First name: <input type="text" name="fname">
-        <br>
-        <input type="file" name="archive_name" id="archivo" onchange="return ValidarExtension()">
-        <div id="Container"></div>
+      First name: <input type="text" name="fname" />
+      <br />
+      <input
+        type="file"
+        name="archive_name"
+        id="archivo"
+        onchange="return ValidarExtension()"
+      />
+      <div id="Container"></div>
     </form>
-
-</body>
+  </body>
 </html>
